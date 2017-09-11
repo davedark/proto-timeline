@@ -1,0 +1,90 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Track my passport application
+{% endblock %}
+
+{% block proposition_header %}
+  <!-- blank to remove the proposition header -->
+{% endblock %}
+
+{% block header_class %}
+  <!-- blank to remove the proposition header -->
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+  <!-- <div class="breadcrumbs">
+    <ol>
+      <li><a href="https://www.gov.uk">Home</a></li>
+      <li><a href="">Section</a></li>
+      <li>Subsection</li>
+    </ol>
+  </div> -->
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-large">
+        Track my passport application
+      </h1>
+      <div class="timeline">
+        <ul>
+          <li>
+            <p class="timeline-reference">10 August 2017 <span class="time">7:30pm</span></p>
+            <h2>Ask someone to confirm your identity</h2>
+            <p>You need to do this as your passport is damaged.</p>
+            <a href="confirm-identity" class="button">Continue</a>
+          </li>
+          <li>
+            <h2 class="timeline-reference">8 August 2017 <span class="time">04:30pm</span></h2>
+            <h2>Old passport received</h2>
+            <p>Received at HMPO office.</p>
+          </li>
+          <li>
+            <h2 class="timeline-reference">5 August 2017<span class="time">18:55</span></h2>
+            <h2>Joined processing queue</h2>
+            <p>Your passport application is waiting in a queue to be processed.</p>
+          </li>
+          <li>
+            <h2 class="timeline-reference">5 August 2017<!--<span class="label">sent</span>--></h2>
+            <h2>Application received</h2>
+          </li>
+          </li>
+          <li>
+            <h2 class="timeline-reference">4 August 2017</h2>
+            <h2>Application submitted</h2>
+            <!-- <details role="group">
+              <summary role="button" aria-controls="details-content-0" aria-expanded="false">
+                <span class="summary">What is this report?</span>
+              </summary>
+              <div class="panel panel-border-narrow" id="details-content-0" aria-hidden="true">
+                <p>You can include more information in here</p>
+              </div>
+            </details> -->
+          </li>
+        </ul>
+      </div>
+
+
+    <div class="column-third">
+
+      <!-- <aside class="govuk-related-items" role="complementary">
+        <h2 class="heading-medium" id="subsection-title">Subsection</h2>
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="font-xsmall">
+            <li><a href="#">Related link</a></li>
+            <li><a href="#">Related link</a></li>
+            <li><a href="#" class="bold-xsmall">More <span class="visuallyhidden">in Subsection</span></a></li>
+          </ul>
+        </nav>
+      </aside> -->
+
+    </div>
+  </div>
+
+</main>
+
+{% endblock %}

@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Track my passport application
+{% endblock %}
+
+{% block proposition_header %}
+  <!-- blank to remove the proposition header -->
+{% endblock %}
+
+{% block header_class %}
+  <!-- blank to remove the proposition header -->
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+  <!-- <div class="breadcrumbs">
+    <ol>
+      <li><a href="https://www.gov.uk">Home</a></li>
+      <li><a href="">Section</a></li>
+      <li>Subsection</li>
+    </ol>
+  </div> -->
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-large">
+        Ask someone to confirm your identity
+      </h1>
+      <h2 class="heading-medium">The person confirming your identity must:</h2>
+      <ul class="list list-bullet">
+        <li>have known you personally for at least 2 years, for example as a friend <br>or neighbour</li>
+        <li>work in or be retired from a <a href="/govuk/" target="_blank">recognised profession</a></li>
+        <li>have a current UK passport</li>
+      </ul>
+      <h2 class="heading-medium">You need to contact the person</h2>
+      <p>We'll send them an email with all the details but you must contact them first. When you speak to them, make sure they:</p>
+      <ul class="list list-bullet">
+        <li>are happy to confirm your identity</li>
+        <li>can go online to do this in the next few days</li>
+        <li>know your date of birth including the year</li>
+      </ul>
+      <hr>
+      <div class="form-group">
+        <div class="multiple-choice">
+          <input id="radio-example" type="checkbox" name="radio-group" value="Isle of Man or the Channel Islands">
+          <label for="radio-example">I've contacted the person and they agree to confirm my identity.</label>
+        </div>
+      </div>
+      <a href="send-email" class="button">Continue</a>
+
+    <div class="column-third">
+
+      <!-- <aside class="govuk-related-items" role="complementary">
+        <h2 class="heading-medium" id="subsection-title">Subsection</h2>
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="font-xsmall">
+            <li><a href="#">Related link</a></li>
+            <li><a href="#">Related link</a></li>
+            <li><a href="#" class="bold-xsmall">More <span class="visuallyhidden">in Subsection</span></a></li>
+          </ul>
+        </nav>
+      </aside> -->
+
+    </div>
+  </div>
+
+</main>
+
+{% endblock %}

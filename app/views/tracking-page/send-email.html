@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Track my passport application
+{% endblock %}
+
+{% block proposition_header %}
+  <!-- blank to remove the proposition header -->
+{% endblock %}
+
+{% block header_class %}
+  <!-- blank to remove the proposition header -->
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+  <!-- <div class="breadcrumbs">
+    <ol>
+      <li><a href="https://www.gov.uk">Home</a></li>
+      <li><a href="">Section</a></li>
+      <li>Subsection</li>
+    </ol>
+  </div> -->
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-large">
+        Provide the person's contact details
+      </h1>
+      <p>We'll send them an email with more information and a link to go online.</p>
+      <div class="form-group">
+        <label class="form-label-bold" for="full-name">The person's full name</label>
+        <input class="form-control" id="full-name" name="full-name" type="text">
+      </div>
+      <div class="form-group">
+        <label class="form-label-bold" for="email-address">Their email</label>
+        <input class="form-control" id="email-address" name="email-address" type="text">
+      </div>
+      <a href="track-waiting" class="button">Continue</a>
+
+    <div class="column-third">
+
+      <!-- <aside class="govuk-related-items" role="complementary">
+        <h2 class="heading-medium" id="subsection-title">Subsection</h2>
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="font-xsmall">
+            <li><a href="#">Related link</a></li>
+            <li><a href="#">Related link</a></li>
+            <li><a href="#" class="bold-xsmall">More <span class="visuallyhidden">in Subsection</span></a></li>
+          </ul>
+        </nav>
+      </aside> -->
+
+    </div>
+  </div>
+
+</main>
+
+{% endblock %}
